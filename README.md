@@ -26,7 +26,7 @@ Widget build(Buildcontext context) {
       child: Container(
         color: Color(0xFFffffff),
       ),
-    );
-  ) 
+    ),
+  );
 }
 ```
