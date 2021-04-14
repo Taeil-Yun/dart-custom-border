@@ -3,7 +3,7 @@
 Custom border for Flutter
 
 ## Getting Started
-####Example
+###Example
 ```
 import 'package:Your Project/widgets/custom_border.dart';
 
