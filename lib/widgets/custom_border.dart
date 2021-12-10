@@ -4,14 +4,14 @@ class CustomerBorder extends StatelessWidget {
   final Widget child;
   final Color borderColor;
   final double borderWidth,
-              topLeftBorderLength,
-              topRightBorderLength,
-              bottomLeftBorderLength,
-              bottomRightBorderLength,
-              leftTopBorderLength,
-              leftBottomBorderLength,
-              rightTopBorderLength,
-              rightBottomBorderLength;
+      topLeftBorderLength,
+      topRightBorderLength,
+      bottomLeftBorderLength,
+      bottomRightBorderLength,
+      leftTopBorderLength,
+      leftBottomBorderLength,
+      rightTopBorderLength,
+      rightBottomBorderLength;
   final EdgeInsetsGeometry borderPadding;
 
   CustomerBorder({
@@ -20,14 +20,14 @@ class CustomerBorder extends StatelessWidget {
     @required this.borderColor,
     @required this.borderWidth,
     @required this.borderPadding,
-              this.topLeftBorderLength,
-              this.topRightBorderLength,
-              this.bottomLeftBorderLength,
-              this.bottomRightBorderLength,
-              this.leftTopBorderLength,
-              this.leftBottomBorderLength,
-              this.rightTopBorderLength,
-              this.rightBottomBorderLength,
+    this.topLeftBorderLength,
+    this.topRightBorderLength,
+    this.bottomLeftBorderLength,
+    this.bottomRightBorderLength,
+    this.leftTopBorderLength,
+    this.leftBottomBorderLength,
+    this.rightTopBorderLength,
+    this.rightBottomBorderLength,
   }) : super(key: key);
 
   @override
@@ -137,7 +137,6 @@ class CustomerBorder extends StatelessWidget {
                   ),
                 ),
               ),
-
             ],
           ),
         ),
@@ -146,7 +145,7 @@ class CustomerBorder extends StatelessWidget {
           padding: borderPadding,
           child: child,
         ),
-
+//ㅎㅎㅎ 지랄
       ],
     );
   }
