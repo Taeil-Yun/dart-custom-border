@@ -145,7 +145,6 @@ class CustomerBorder extends StatelessWidget {
           padding: borderPadding,
           child: child,
         ),
-//ㅎㅎㅎ 지랄
       ],
     );
   }
